@@ -46,9 +46,3 @@ if __name__ == "__main__":
     size = int(sys.argv[1])
     arr = [random.randrange(-10000, 10000, 1) for _ in range(size)]
     print(inversionen(arr)[1])
-
-
-# Laufzeit:
-# Beim Master-Threorem 2. Fall, weil 2*1/2=1
-# Aufwand ohne Rekursion ist O(m) (merge und Array-Splitting)
-# Somit O(m log m)

@@ -3,6 +3,7 @@
 The code was executed on a MacBook Pro (Early 2015) - 2,7 GHz Intel Core i5 processor.
 
 ```python
+time python3 exhaustive.py 100
 time python3 divide_and_conquer.py 100
 ```
 
